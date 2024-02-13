@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - Chelumalla Pavan </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="output" readonly>
+        <div class="buttons">
+            <button class="operators-color" onclick="DropValue()">C</button>
+            <button onclick="ToMyResults('1')">1</button>
+            <button onclick="ToMyResults('2')">2</button>
+            <button onclick="ToMyResults('3')">3</button>
+            <button class="operators-color"  onclick="ToMyResults('+')">+</button>
+            <button onclick="ToMyResults('4')">4</button>
+            <button onclick="ToMyResults('5')">5</button>
+            <button onclick="ToMyResults('6')">6</button>
+            <button class="operators-color"  onclick="ToMyResults('-')">-</button>
+            <button onclick="ToMyResults('7')">7</button>
+            <button onclick="ToMyResults('8')">8</button>
+            <button onclick="ToMyResults('9')">9</button>
+            <button class="operators-color"  onclick="ToMyResults('*')">*</button>
+            <button onclick="ToMyResults('0')">0</button>
+            <button class="eql-btn"  onclick="calculatorResults()">= </button>
+            <button class="operators-color"  onclick="ToMyResults('/')">/</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
